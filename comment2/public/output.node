@@ -1,0 +1,65 @@
+nohup: ignoring input
+
+> comment2@0.0.0 start /opt/bitnami/apache2/htdocs/CS360/comment2
+> node ./bin/www
+
+Connected
+[0mGET / [32m200 [0m8.946 ms - 617[0m
+[0mGET /javascripts/comments.js [32m200 [0m1.805 ms - 858[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'This is some text',
+    Name: 'Maura',
+    _id: 56e468d44b2752484416dcd1 },
+  { __v: 0,
+    Comment: 'I love my Maura',
+    Name: 'Michael',
+    _id: 56e46ba44de3548844c0f6e6 },
+  { __v: 0,
+    Comment: 'I love my Michael!',
+    Name: 'Maura',
+    _id: 56e46bba4de3548844c0f6e7 } ]
+[0mGET /comment [32m200 [0m19.108 ms - 266[0m
+[0mGET / [36m304 [0m1.834 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m4.845 ms - -[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'This is some text',
+    Name: 'Maura',
+    _id: 56e468d44b2752484416dcd1 },
+  { __v: 0,
+    Comment: 'I love my Maura',
+    Name: 'Michael',
+    _id: 56e46ba44de3548844c0f6e6 },
+  { __v: 0,
+    Comment: 'I love my Michael!',
+    Name: 'Maura',
+    _id: 56e46bba4de3548844c0f6e7 } ]
+[0mGET /comment [36m304 [0m3.252 ms - -[0m
+POST comment route
+{ _id: 56e46da4e29039a044266821,
+  Comment: 'Still working',
+  Name: 'Anonymous' }
+{ _id: 56e46da4e29039a044266821,
+  Comment: 'Still working',
+  Name: 'Anonymous',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m30.927 ms - 2[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'This is some text',
+    Name: 'Maura',
+    _id: 56e468d44b2752484416dcd1 },
+  { __v: 0,
+    Comment: 'I love my Maura',
+    Name: 'Michael',
+    _id: 56e46ba44de3548844c0f6e6 },
+  { __v: 0,
+    Comment: 'I love my Michael!',
+    Name: 'Maura',
+    _id: 56e46bba4de3548844c0f6e7 },
+  { __v: 0,
+    Comment: 'Still working',
+    Name: 'Anonymous',
+    _id: 56e46da4e29039a044266821 } ]
+[0mGET /comment [32m200 [0m2.966 ms - 354[0m
