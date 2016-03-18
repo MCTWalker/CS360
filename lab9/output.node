@@ -1,0 +1,50 @@
+nohup: ignoring input
+
+> lab9@0.0.0 start /opt/bitnami/apache2/htdocs/CS360/lab9
+> node ./bin/www
+
+[0mGET / [36m304 [0m7.739 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.161 ms - -[0m
+[0mGET /comments [32m200 [0m15.929 ms - 249[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/upvote [32m200 [0m14.401 ms - 83[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/upvote [32m200 [0m2.667 ms - 83[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/upvote [32m200 [0m2.015 ms - 83[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/upvote [32m200 [0m1.878 ms - 83[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/upvote [32m200 [0m2.619 ms - 83[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/upvote [32m200 [0m2.726 ms - 83[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/upvote [32m200 [0m1.891 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/upvote [32m200 [0m2.329 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/upvote [32m200 [0m5.580 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/upvote [32m200 [0m2.596 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/upvote [32m200 [0m3.279 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m3.256 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m1.785 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m2.273 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m1.807 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m1.942 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m2.326 ms - 85[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m10.522 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m3.242 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m2.445 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m3.119 ms - 86[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/downvote [32m200 [0m2.507 ms - 83[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m1.877 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m2.822 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m1.741 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m2.138 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m2.270 ms - 86[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m3.319 ms - 87[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m1.783 ms - 87[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m2.687 ms - 87[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m6.648 ms - 87[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m3.380 ms - 87[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m4.757 ms - 87[0m
+[0mPUT /comments/56ec2ff3a2918c541449ea9f/downvote [32m200 [0m1.792 ms - 87[0m
+[0mGET / [36m304 [0m0.858 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.354 ms - -[0m
+[0mGET /comments [32m200 [0m2.822 ms - 250[0m
+[0mPUT /comments/56ec2dc0420d97e613a00a5a/upvote [32m200 [0m2.397 ms - 77[0m
+[0mPUT /comments/56ec2dc0420d97e613a00a5a/downvote [32m200 [0m1.785 ms - 76[0m
+[0mPUT /comments/56ec2dc0420d97e613a00a5a/upvote [32m200 [0m1.724 ms - 77[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/downvote [32m200 [0m3.412 ms - 83[0m
+[0mPUT /comments/56ec2c43420d97e613a00a59/upvote [32m200 [0m2.229 ms - 83[0m

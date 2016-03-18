@@ -40,4 +40,10 @@ router.put('/comments/:comment/upvote', function(req, res, next) {
     res.json(comment);
   });
 });
+router.put('/comments/:comment/downvote', function(req, res, next) {
+  req.comment.downvote(function(err, comment){
+    if (err) { return next(err); }
+    res.json(comment);
+  });
+});
 module.exports = router;

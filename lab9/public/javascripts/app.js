@@ -50,7 +50,7 @@ angular.module('comment', [])
         });
     };
       $scope.downvote = function(comment) {
-        return $http.put('/comments/' + comment._id + '/upvote')
+        return $http.put('/comments/' + comment._id + '/downvote')
         .success(function(data){
           console.log("downvote worked");
           comment.upvotes -= 1;
